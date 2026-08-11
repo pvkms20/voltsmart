@@ -425,3 +425,4 @@ function ConsumptionChart({ period, setPeriod }) {
             <XAxis dataKey="label" stroke={COLORS.muted2} fontSize={11} tickLine={false} axisLine={false} />
             <YAxis stroke={COLORS.muted2} fontSize={11} tickLine={false} axisLine={false} />
             <Tooltip contentStyle={{ background: COLORS.panel2, border: `1px solid ${COLORS.border}`, 
+                                    // Vercel redeploy trigger
